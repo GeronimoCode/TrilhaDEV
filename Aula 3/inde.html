@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMT - Semana 2 - Aula 3</title>
+</head>
+<body>
+    <script>
+
+        // && = and
+        // ! = negação ou " não "
+        // || = " ou "
+
+        let resultado_a = 10 > 7; // true 
+        let resultado_b = 5 >= 6; // false
+        console.log(resultado_a && resultado_b) // O resultado será falso, porque uma das condições esta errada.
+
+
+        let cor = "Azul" // true
+        let ano = 2010  //true
+        console.log(cor == "Azul" && ano >= 2008) // O resultado será true, porque as duas condições estão certas.
+   
+        let resultado_c = 10 > 7; // true 
+        let resultado_d = 5 >= 6; // false
+        console.log(resultado_a && !resultado_b) // O sinal " ! " nega a condição "resultado_b". 
+
+        let cor2 = "Vermelho" // false
+        let ano2 = 2010  //true
+        console.log(cor == "Azul" || ano >= 2008) // Os sinais " || " vão escolher a condição verdadeira, retornando no console como true.
+
+        let cor3 = "Vermelho"
+        let ano3 = 2010
+        console.log(cor == "Azul" || cor == "Branco") // Se todas as condições forem falsas, o console ira retornar o valo de false.
+   
+   </script>
+</body>
+</html>
